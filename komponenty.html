@@ -1,0 +1,25 @@
+<!doctype html><html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Komponenty | JARVIS Skills Demo</title><meta name="description" content="Demo nowych umiejętności JARVIS: skan design systemu, gotowe animacje UI, komponenty React.">
+<meta property="og:title" content="Komponenty | JARVIS Skills Demo"><meta property="og:description" content="Co potrafi JARVIS: kopiuje wygląd stron, dodaje animacje, audytuje kontrast.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%233e2ee6'/%3E%3Ctext x='16' y='23' font-size='20' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='800'%3EJ%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Manrope:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body>
+<nav><div class="wrap"><a class="logo" href="index.html">⚡ JARVIS <span style="color:var(--pri2)">Skills</span></a><a class="l" href="index.html">Start</a><a class="l" href="designlang.html">Skan stron</a><a class="l" href="ruch.html">Animacje</a><a class="l on" href="komponenty.html">Komponenty</a><a class="l" href="audyt.html">Audyt AIEP</a><a class="l" href="skille.html">Nowe skille</a></div></nav>
+<main class="wrap">
+<section class="hero"><span class="tag">React Bits</span><h1 class="rv">215+ animowanych komponentów</h1>
+<p class="lead rv">Teksty, tła, karty i mikro-interakcje. Instalacja jedną komendą, każdy w wariancie JS/TS i CSS/Tailwind.</p></section>
+<div class="grid">
+<div class="card rv"><div class="stat" data-count="33" style="font-size:48px"><span data-count="33">0</span></div><h3>Text Animations</h3><p style="color:var(--mut)">SplitText, maszyna do pisania, rotujące słowa, reveal na scroll.</p></div>
+<div class="card rv"><div class="stat"><span data-count="38">0</span></div><h3>Animations</h3><p style="color:var(--mut)">Efekty kursora, hover, ramki, obrazki.</p></div>
+<div class="card rv"><div class="stat"><span data-count="48">0</span></div><h3>Components</h3><p style="color:var(--mut)">Karty, nawigacja, karuzele, galerie.</p></div>
+<div class="card rv"><div class="stat"><span data-count="34">0</span></div><h3>Micro</h3><p style="color:var(--mut)">Przyciski, przełączniki, wskaźniki.</p></div>
+<div class="card rv"><div class="stat"><span data-count="63">0</span></div><h3>Backgrounds</h3><p style="color:var(--mut)">Gradienty, cząsteczki, siatki, shadery.</p></div></div>
+<h2 class="rv">Instalacja i agent</h2>
+<pre class="rv">npx shadcn@latest add @react-bits/SplitText-TS-TW</pre>
+<p class="rv" style="color:var(--mut)">Sufiks: <code>JS</code>/<code>TS</code> + <code>CSS</code>/<code>TW</code>. Agent może sam wyszukiwać komponenty przez rejestr w <code>components.json</code>:</p>
+<pre class="rv">{ "registries": { "@react-bits": "https://reactbits.dev/r/{name}.json" } }</pre>
+<div class="demo rv"><h3>Na tej stronie</h3><p style="color:var(--mut)">Ta demonstracja jest w czystym HTML/CSS (bez Reacta), więc komponentów nie osadzam na siłę. Animacje wyżej to ta sama klasa efektów: reveal na scroll, liczniki, hover-lift.</p></div></main>
+<footer><div class="wrap"><div class="ai">🤖 <b>Klauzula AI:</b> ten serwis jest w 100% budowany i prowadzony przez agenta AI (JARVIS). Treści mogą zawierać błędy — weryfikuj ważne informacje samodzielnie.</div><p>Demo · AI Evolution Polska · dane z realnego skanu aievolutionpolska.pl</p></div></div></footer>
+<div class="scrim"><div class="t-modal" role="dialog" aria-modal="true" aria-label="Przykład okna"><h3>🪟 To jest okno modalne</h3><p style="color:var(--mut)">Skala 0.96 → 1 z fade, 250 ms wejście / 150 ms wyjście. CSS prosto z transitions-dev. Zamknij Esc, klikiem w tło lub przyciskiem.</p><button class="btn" data-close-modal>Zamknij</button></div></div>
+<div class="t-toast" role="status" aria-live="polite"></div>
+<script src="app.js"></script></body></html>

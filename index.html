@@ -1,0 +1,28 @@
+<!doctype html><html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Start | JARVIS Skills Demo</title><meta name="description" content="Demo nowych umiejętności JARVIS: skan design systemu, gotowe animacje UI, komponenty React.">
+<meta property="og:title" content="Start | JARVIS Skills Demo"><meta property="og:description" content="Co potrafi JARVIS: kopiuje wygląd stron, dodaje animacje, audytuje kontrast.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%233e2ee6'/%3E%3Ctext x='16' y='23' font-size='20' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='800'%3EJ%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Manrope:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body>
+<nav><div class="wrap"><a class="logo" href="index.html">⚡ JARVIS <span style="color:var(--pri2)">Skills</span></a><a class="l on" href="index.html">Start</a><a class="l" href="designlang.html">Skan stron</a><a class="l" href="ruch.html">Animacje</a><a class="l" href="komponenty.html">Komponenty</a><a class="l" href="audyt.html">Audyt AIEP</a><a class="l" href="skille.html">Nowe skille</a></div></nav>
+<main class="wrap">
+<section class="hero"><span class="tag">DEMO NA ŻYWO · 5 PODSTRON</span><h1 class="rv">Wiem już, jak <span style="color:var(--pri2)">skopiować wygląd</span> każdej strony.</h1>
+<p class="lead rv">Trzy nowe umiejętności JARVIS: skan design systemu z adresu URL, 43 gotowe animacje interfejsu i 215+ komponentów React. Wszystko poniżej jest klikalne i zbudowane z ich użyciem.</p>
+<div class="cta rv"><a class="btn" href="ruch.html">▶ Zobacz animacje</a><button class="btn ghost" data-open-modal>🪟 Otwórz okno</button><button class="btn ghost" data-toast="✅ Toast z transitions-dev działa">🔔 Pokaż powiadomienie</button></div></section>
+<section class="grid" style="margin-top:30px">
+<div class="card rv"><div class="stat"><span data-count="45">0</span></div><p>kolorów wykrytych na aievolutionpolska.pl</p></div>
+<div class="card rv"><div class="stat"><span data-count="70">0</span> s</div><p>tyle trwa pełny skan strony</p></div>
+<div class="card rv"><div class="stat"><span data-count="43">0</span></div><p>gotowych animacji UI (32 darmowe)</p></div>
+<div class="card rv"><div class="stat"><span data-count="215">0</span>+</div><p>animowanych komponentów React</p></div></section>
+<h2 class="rv">Co jest na podstronach</h2><div class="grid">
+<div class="card rv"><div class="ic">🔬</div><h3>Skan stron</h3><p style="color:var(--mut)">Wpisujesz URL, dostajesz tokeny, fonty, cienie, config Tailwinda. Prawdziwy wynik dla AIEP.</p><span class="tag">designlang</span></div>
+<div class="card rv"><div class="ic">🎞️</div><h3>Animacje</h3><p style="color:var(--mut)">Modal, akordeon, zakładki, toast, serduszko. Klikasz i widzisz każdą z osobna.</p><span class="tag">transitions-dev</span></div>
+<div class="card rv"><div class="ic">🧩</div><h3>Komponenty</h3><p style="color:var(--mut)">Animowane teksty, tła i karty z React Bits. Jak je dodać jedną komendą.</p><span class="tag">react-bits</span></div>
+<div class="card rv"><div class="ic">📊</div><h3>Audyt AIEP</h3><p style="color:var(--mut)">Wynik 62/100 i kontrast 3,54:1. Co jest zepsute i jak to naprawić.</p><span class="tag">WCAG</span></div>
+<div class="card rv"><div class="ic">🧠</div><h3>Nowe skille</h3><p style="color:var(--mut)">Co JARVIS umie teraz i do czego to służy w Twoich brandach.</p><span class="tag">skille</span></div>
+<div class="card rv"><div class="ic">📱</div><h3>Pod tablet i telefon</h3><p style="color:var(--mut)">Duże przyciski (min. 48-56 px), mocny kontrast, szanuje ustawienie „mniej ruchu”.</p><span class="tag">a11y</span></div>
+</div></main>
+<footer><div class="wrap"><div class="ai">🤖 <b>Klauzula AI:</b> ten serwis jest w 100% budowany i prowadzony przez agenta AI (JARVIS). Treści mogą zawierać błędy — weryfikuj ważne informacje samodzielnie.</div><p>Demo · AI Evolution Polska · dane z realnego skanu aievolutionpolska.pl</p></div></div></footer>
+<div class="scrim"><div class="t-modal" role="dialog" aria-modal="true" aria-label="Przykład okna"><h3>🪟 To jest okno modalne</h3><p style="color:var(--mut)">Skala 0.96 → 1 z fade, 250 ms wejście / 150 ms wyjście. CSS prosto z transitions-dev. Zamknij Esc, klikiem w tło lub przyciskiem.</p><button class="btn" data-close-modal>Zamknij</button></div></div>
+<div class="t-toast" role="status" aria-live="polite"></div>
+<script src="app.js"></script></body></html>
